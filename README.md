@@ -21,7 +21,7 @@ The model is trained on a diverse dataset of cervical spine CT scans from Kaggle
 The custom CNN architecture is designed from scratch, incorporating Convolutional, Pooling, and Dropout layers. This approach allows us to tailor the network to the specific characteristics of cervical spine fracture detection.
 
 ### 2. Transfer Learning Models
-This section explores the utilization of pre-trained deep learning models for improved performance. Models such as VGG16, ResNet50, and InceptionResNetV2 are fine-tuned on our dataset, leveraging the knowledge gained from diverse image datasets.
+This section explores the utilization of pre-trained deep learning models for improved performance. Models such as DenseNet121, InceptionV3, and InceptionResNetV2 are fine-tuned on our dataset, leveraging the knowledge gained from diverse image datasets.
 
 ### 3. Encoder-Decoder Architecture
 In this approach, an encoder-decoder architecture is implemented. The encoder employs the U-Net model, known for its effectiveness in segmentation tasks. The best-performing transfer learning model is utilized as the decoder to enhance feature extraction and improve the precision of cervical spine fracture identification. ​
