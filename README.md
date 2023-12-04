@@ -24,7 +24,7 @@ The custom CNN architecture is designed from scratch, incorporating Convolutiona
 This section explores the utilization of pre-trained deep learning models for improved performance. Models such as DenseNet121, InceptionV3, and InceptionResNetV2 are fine-tuned on our dataset, leveraging the knowledge gained from diverse image datasets.
 
 ### 3. Encoder-Decoder Architecture
-In this approach, an encoder-decoder architecture is implemented. The encoder employs the U-Net model, known for its effectiveness in segmentation tasks. The best-performing transfer learning model is utilized as the decoder to enhance feature extraction and improve the precision of cervical spine fracture identification. ​
+In this approach, an encoder-decoder architecture is implemented. The decoder employs the U-Net model for upsampling, known for its effectiveness in segmentation tasks. The best-performing transfer learning model is utilized as an encoder to enhance feature extraction and improve the precision of cervical spine fracture identification. ​
 
 ## Future Scope
 1. The dataset contains additional data such as bounding boxes which will be useful in building more robust models, we can utilize that for to futher increase the performance of the models.
